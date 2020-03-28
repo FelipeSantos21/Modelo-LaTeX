@@ -36,11 +36,9 @@ Estou usando como ferramenta para edição do LaTeX o WinEdt, para compilação 
 
 Fica tranquilo que quando acabar de fazer a customização do "trabalho simples", pretendo fazer alguns tutoriais, entre eles:
 
-    * Como instalar as ferramentas que uso para fazer os trabalhos.
-
-    * Como configurar essas ferramentas.
-
-    * Como modificar o modelo para fazer o seu trabalho da Unisagrado.
+* Como instalar as ferramentas que uso para fazer os trabalhos.
+* Como configurar essas ferramentas.
+* Como modificar o modelo para fazer o seu trabalho da Unisagrado.
 
 ## Arquivos e pastas
 
