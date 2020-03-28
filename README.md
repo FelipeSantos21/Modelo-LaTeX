@@ -40,6 +40,9 @@ Fica tranquilo que quando acabar de fazer a customização do "trabalho simples"
     * Como modificar o modelo para fazer o seu trabalho da Unisagrado
 
 ## Arquivos e pastas
+
+Aqui tento explicar a função de cada arquivo e pasta nesse repositório, para facilitar o uso por quem nunca usou o LaTeX.
+
 ### modelo-unisagrado.tex
 
 É o arquivo onde se "configura a formatação" e coloca o texto do seu trabalho.
