@@ -1,11 +1,12 @@
-% Felipe Augusto Pereira dos Santos
-% Teste para usar o LaTeX em vez do Word no meu projeto de Iniciação Científica
+% Modificado por: Felipe Augusto Pereira dos Santos
+% Modificação do modelo da AbnTeX2 para projeto de pesquisa para ficar de acordo com as necessidades da Unisagrado
 
+% Para acessar a versão original da AbnTeX2 o site é esse: https://github.com/abntex/abntex2
 % abnTeX2: Modelo de Projeto de pesquisa em conformidade com
 % ABNT NBR 15287:2011 Informação e documentação - Projeto de pesquisa -
 % Apresentação
 
-
+% Configurações da ABNT, é melhor não mexer
 \documentclass[
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
@@ -14,7 +15,7 @@
 	%twoside,			% para impressão em recto e verso. Oposto a oneside
 	a4paper,			% tamanho do papel.
 	% -- opções da classe abntex2 --
-	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
 	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
 	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
 	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
@@ -29,6 +30,7 @@
 
 % ---
 % PACOTES
+% Aqui estão os pacotes necessários para estar de acordo com a ABNT
 % ---
 
 % ---
@@ -49,6 +51,8 @@
 \usepackage{hyperref}
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 \usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+
 
 % ---
 % CONFIGURAÇÕES DE PACOTES
@@ -75,8 +79,9 @@
 
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
+% Coloque aqui os seus dados para o tabalho
 % ---
-\titulo{Trabalho da Unisagrado}
+\titulo{Exemplo de Trabalho da Unisagrado}
 \autor{Felipe Augusto Pereira dos Santos}
 \local{Bauru}
 \data{2020} %, v-1.9.7}
@@ -166,6 +171,8 @@
 %     folha ou página distinta após a folha de rosto.''
 % ---
 
+% Aqui começa a criação das listas e do sumário, para usá-los basta descomentar os rescpectivos \begin{comment} e \end{comment} - Eles sinalizam o inicio e fim de um comentário de mais de uma linha, é util para anotar coisas que não quer que apareça no pdf compilado.
+
 \begin{comment}
 % ---
 % inserir lista de ilustrações
@@ -175,6 +182,7 @@
 \cleardoublepage
 % ---
 \end{comment}
+
 
 \begin{comment}
 % ---
@@ -208,6 +216,31 @@
 \chapter{Introdução}
 
 Aqui vai o seu texto
+
+Para fazer uma citação basta usar \cite{citaUm} "Aqui é uma citação direta curta..."
+
+Para fazer uma citação longa basta usar do mesmo jeito \cite{citaUm} 
+\begin{citacao} Aqui é uma citação direta longa... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices ligula id varius tempus. Ut pulvinar ex at odio convallis, eget egestas felis rutrum. Fusce mattis pellentesque felis sed vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed viverra enim non turpis aliquam condimentum. Cras faucibus enim nec lacus gravida ultricies id vitae est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi venenatis condimentum imperdiet.
+\end{citacao}
+
+Pode-se usar outra forma de fazer a citação \citeonline{citaUm} "Citando mais uma vez aqui... Para citação indireta é só não usar as aspas...1"
+
+E para usar basta colocar \cite{nome-do-id-do-livro} e que para quem vê o pdf é o comando {\\cite\{nome-do-id-do-livro\}} e podemos continuar com o texto, outra coisa legal é que ele corrige os espaços duplos no pdf,     como esse
+
+
+
+
+Quisque libero velit, tristique non tellus at, varius dapibus ipsum. Ut bibendum lacus ut gravida rhoncus. Nam ac ipsum lorem. Nulla non nulla nisi. Aliquam accumsan scelerisque magna eu vulputate. Donec lectus nisi, molestie at augue ut, iaculis ornare nisl. Duis vel pulvinar arcu, ut egestas ligula. Vivamus id justo accumsan, consectetur neque sit amet, mollis orci. Nunc turpis lorem, dapibus at metus id, sodales eleifend justo. Vestibulum quis gravida augue. In pulvinar volutpat quam, quis porta neque vulputate vel.
+
+Integer bibendum eu felis id suscipit. Mauris metus enim, rhoncus id feugiat at, egestas vitae tortor. Donec at varius augue. Nam non imperdiet sem. Sed consequat fringilla pretium. Sed semper, neque sed interdum viverra, eros nisl egestas eros, eu feugiat libero justo eu arcu. Cras imperdiet tempor velit eu convallis. Duis at lorem eu lacus tristique dignissim.
+
+\chapter{Desenvolvimento do texto}
+
+Aqui é mais um capitulo...
+
+Quisque libero velit, tristique non tellus at, varius dapibus ipsum. Ut bibendum lacus ut gravida rhoncus. Nam ac ipsum lorem. Nulla non nulla nisi. Aliquam accumsan scelerisque magna eu vulputate. Donec lectus nisi, molestie at augue ut, iaculis ornare nisl. Duis vel pulvinar arcu, ut egestas ligula. Vivamus id justo accumsan, consectetur neque sit amet, mollis orci. Nunc turpis lorem, dapibus at metus id, sodales eleifend justo. Vestibulum quis gravida augue. In pulvinar volutpat quam, quis porta neque vulputate vel.
+
+Integer bibendum eu felis id suscipit. Mauris metus enim, rhoncus id feugiat at, egestas vitae tortor. Donec at varius augue. Nam non imperdiet sem. Sed consequat fringilla pretium. Sed semper, neque sed interdum viverra, eros nisl egestas eros, eu feugiat libero justo eu arcu. Cras imperdiet tempor velit eu convallis. Duis at lorem eu lacus tristique dignissim.
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
