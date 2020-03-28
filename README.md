@@ -9,11 +9,11 @@ Se quiser ver o modelo em pdf que foi gerado <a target="_blank" href="https://gi
 * [Como usar](#como-usar)
 * [Observações](#observações)
 * [Arquivos e pastas](#arquivos-e-pastas)
-    * [modelo-unisagrado.tex](#modelo-unisagrado.tex)
-    * [bibliografia-modelo-unisagrado.bib](#bibliografia-modelo-unisagrado.bib)
-    * [modelo-unisagrado.pdf](#modelo-unisagrado.pdf)
-    * [custom-unisagrado.cls](#custom-unisagrado.cls)
-    * [Limpar_Arquivos_Auxiliares.bat](#Limpar_Arquivos_Auxiliares.bat)
+    * [modelo-unisagrado.tex](#modelo-unisagradotex)
+    * [bibliografia-modelo-unisagrado.bib](#bibliografia-modelo-unisagradobib)
+    * [modelo-unisagrado.pdf](#modelo-unisagradopdf)
+    * [custom-unisagrado.cls](#custom-unisagradocls)
+    * [Limpar_Arquivos_Auxiliares.bat](#Limpar_Arquivos_Auxiliaresbat)
     * [Pasta Figuras](#pasta-figuras)
 
 ## Objetivo
