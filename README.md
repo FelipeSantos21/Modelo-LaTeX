@@ -42,26 +42,26 @@ Fica tranquilo que quando acabar de fazer a customização do "trabalho simples"
 ## Arquivos e pastas
 ### modelo-unisagrado.tex
 
-    É o arquivo onde se "configura a formatação" e coloca o texto do seu trabalho.
+É o arquivo onde se "configura a formatação" e coloca o texto do seu trabalho.
 
 ### bibliografia-modelo-unisagrado.bib
 
-    É o arquivo que armazena as suas referências para depois ligar com as citações e gerar a referência do trabalho.
+É o arquivo que armazena as suas referências para depois ligar com as citações e gerar a referência do trabalho.
 
 ### modelo-unisagrado.pdf
 
-    É o resultado da compilação dos dois arquivos a cima, é o arquivo final que você envia para o professor.
+É o resultado da compilação dos dois arquivos a cima, é o arquivo final que você envia para o professor.
 
 ### custom-unisagrado.cls
 
-    É o arquivo de customização que está modificando o modelo da ABNT "pura" (Abntex2) para ficar do jeito que a Unisagrado quer.
-    Recomendo não mexer nele, já que altera a formatação do trabalho.
+É o arquivo de customização que está modificando o modelo da ABNT "pura" (Abntex2) para ficar do jeito que a Unisagrado quer.
+Recomendo não mexer nele, já que altera a formatação do trabalho.
 
 ### Limpar_Arquivos_Auxiliares.bat 
 
-    É um "programa" para deletar os arquivos auxiliares criados pelo LaTeX ao compilar o trabalho. 
-    Apesar de deixar a pasta "mais bonita" excluir esses arquivos torna o processo de compilar um pouco mais demorado, pois nesse caso tem que compilar do zero.
+É um "programa" para deletar os arquivos auxiliares criados pelo LaTeX ao compilar o trabalho. 
+Apesar de deixar a pasta "mais bonita" excluir esses arquivos torna o processo de compilar um pouco mais demorado, pois nesse caso tem que compilar do zero.
 
 ### Pasta Figuras
 
-    Nela está a imagem do logo da Unisagrado usada na capa e folha de rosto. Também é a pasta onde você pode colocar as imagens que for usar para deixar mais organizado.
+Nela está a imagem do logo da Unisagrado usada na capa e folha de rosto. Também é a pasta onde você pode colocar as imagens que for usar para deixar mais organizado.
